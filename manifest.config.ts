@@ -5,6 +5,7 @@ export default defineManifest({
     name: 'Smartstore Crawler',
     version: '1.0.0',
     action: {
+        // 새창 열기 할때에는 주석처리
         default_popup: 'index.html'
     },
     background: {
